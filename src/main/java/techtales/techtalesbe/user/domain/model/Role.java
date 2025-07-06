@@ -1,11 +1,11 @@
-package techtales.techtalesbe.domain.entity;
+package techtales.techtalesbe.user.domain.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import techtales.techtalesbe.domain.enums.UserRole;
+import techtales.techtalesbe.user.domain.enums.UserRole;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

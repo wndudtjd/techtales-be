@@ -1,4 +1,4 @@
-package techtales.techtalesbe.domain.entity;
+package techtales.techtalesbe.user.domain.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -45,7 +45,7 @@ public class User {
 
     private LocalDateTime updateAt;
 
-    public User(String userName, String nickName, String email, String phoneNumber, String password, String birth, Role role) {
+    private User(String userName, String nickName, String email, String phoneNumber, String password, String birth, Role role) {
         this.userName = userName;
         this.nickName = nickName;
         this.email = email;
@@ -53,6 +53,10 @@ public class User {
         this.password = password;
         this.birth = birth;
         this.role = role;
+    }
+
+    public static User create(String userName, String nickName, String email, String phoneNumber, String password, String birth, Role role) {
+        return new User(userName, nickName, email, phoneNumber, password, birth, role);
     }
 
     @PrePersist

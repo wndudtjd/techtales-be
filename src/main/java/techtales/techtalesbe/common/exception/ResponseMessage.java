@@ -1,8 +1,9 @@
-package techtales.techtalesbe.global.exception;
+package techtales.techtalesbe.common.exception;
 
 import lombok.Builder;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import techtales.techtalesbe.common.exception.CustomErrorCode;
 
 @Builder
 public record ResponseMessage<T>(String message, int statusCode, T data) {

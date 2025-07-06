@@ -1,4 +1,4 @@
-package techtales.techtalesbe.global.config;
+package techtales.techtalesbe.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

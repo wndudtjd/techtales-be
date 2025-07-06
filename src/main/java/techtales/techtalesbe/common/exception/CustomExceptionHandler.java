@@ -1,10 +1,12 @@
-package techtales.techtalesbe.global.exception;
+package techtales.techtalesbe.common.exception;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import techtales.techtalesbe.common.exception.CustomException;
+import techtales.techtalesbe.common.exception.ResponseMessage;
 
 import java.util.Objects;
 

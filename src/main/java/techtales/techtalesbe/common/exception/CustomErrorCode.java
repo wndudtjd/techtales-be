@@ -1,4 +1,4 @@
-package techtales.techtalesbe.global.exception;
+package techtales.techtalesbe.common.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package techtales.techtalesbe.domain.enums;
+package techtales.techtalesbe.user.domain.enums;
 
 public enum UserRole {
     ROLE_USER,

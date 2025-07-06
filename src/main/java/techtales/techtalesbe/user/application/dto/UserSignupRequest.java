@@ -1,4 +1,4 @@
-package techtales.techtalesbe.domain.user.dto;
+package techtales.techtalesbe.user.application.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @AllArgsConstructor
 @Builder
-public class SignupRequestDTO {
+public class UserSignupRequest {
     @NotBlank(message = "이름은 필수사항 입니다.")
     @Size(min = 2, max = 5, message = "사용자 이름은 최소 2글자 최대 5글자로 구성되어야합니다.")
     private String userName;
