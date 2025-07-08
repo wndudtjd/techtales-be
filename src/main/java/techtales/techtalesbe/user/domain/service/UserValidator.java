@@ -2,13 +2,13 @@ package techtales.techtalesbe.user.domain.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-import techtales.techtalesbe.global.exception.CustomException;
+import techtales.techtalesbe.common.exception.CustomException;
 import techtales.techtalesbe.user.domain.model.User;
 import techtales.techtalesbe.user.domain.repository.UserRepository;
 
 import java.util.Optional;
 
-import static techtales.techtalesbe.global.exception.CustomErrorCode.*;
+import static techtales.techtalesbe.common.exception.CustomErrorCode.*;
 
 @Component
 @RequiredArgsConstructor

@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import techtales.techtalesbe.global.exception.CustomException;
+import techtales.techtalesbe.common.exception.CustomException;
 import techtales.techtalesbe.user.application.dto.UserSignupRequest;
 import techtales.techtalesbe.user.domain.enums.UserRole;
 import techtales.techtalesbe.user.domain.model.Role;
@@ -13,7 +13,7 @@ import techtales.techtalesbe.user.domain.repository.RoleRepository;
 import techtales.techtalesbe.user.domain.repository.UserRepository;
 import techtales.techtalesbe.user.domain.service.UserValidator;
 
-import static techtales.techtalesbe.global.exception.CustomErrorCode.INVALID_ROLE;
+import static techtales.techtalesbe.common.exception.CustomErrorCode.INVALID_ROLE;
 
 @Service
 @RequiredArgsConstructor

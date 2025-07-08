@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import techtales.techtalesbe.global.exception.ResponseMessage;
+import techtales.techtalesbe.common.exception.ResponseMessage;
+import techtales.techtalesbe.common.exception.ResponseMessage;
 import techtales.techtalesbe.user.application.dto.UserSignupRequest;
 import techtales.techtalesbe.user.application.service.UserSignupService;
 
